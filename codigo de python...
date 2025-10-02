@@ -1,0 +1,165 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kleber2010/agrinho-teste/blob/main/codigo%20de%20python...\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "6dbd88e6"
+      },
+      "source": [
+        "## Exemplos de Código Python Simples\n",
+        "\n",
+        "Vamos explorar alguns conceitos básicos com exemplos práticos."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "f7b0e9c2"
+      },
+      "source": [
+        "### Variáveis e Tipos de Dados\n",
+        "\n",
+        "Você pode armazenar diferentes tipos de informações em variáveis."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1252365d"
+      },
+      "source": [
+        "# Variáveis de diferentes tipos\n",
+        "nome = \"Alice\"  # String (texto)\n",
+        "idade = 30     # Integer (número inteiro)\n",
+        "altura = 1.65  # Float (número decimal)\n",
+        "is_student = True # Boolean (Verdadeiro ou Falso)\n",
+        "\n",
+        "print(\"Nome:\", nome)\n",
+        "print(\"Idade:\", idade)\n",
+        "print(\"Altura:\", altura)\n",
+        "print(\"É estudante?\", is_student)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "94798eb7"
+      },
+      "source": [
+        "### Estruturas de Controle: `if`, `elif`, `else`\n",
+        "\n",
+        "Você pode usar estruturas condicionais para executar código com base em certas condições."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3f632f6b"
+      },
+      "source": [
+        "temperatura = 25\n",
+        "\n",
+        "if temperatura > 30:\n",
+        "  print(\"Está muito quente!\")\n",
+        "elif temperatura > 20:\n",
+        "  print(\"Está agradável.\")\n",
+        "else:\n",
+        "  print(\"Está frio.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9638c40c"
+      },
+      "source": [
+        "### Loops: `for` e `while`\n",
+        "\n",
+        "Loops permitem que você repita um bloco de código várias vezes."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8eacc399"
+      },
+      "source": [
+        "# Loop 'for' para iterar sobre uma lista\n",
+        "frutas = [\"maçã\", \"banana\", \"cereja\"]\n",
+        "for fruta in frutas:\n",
+        "  print(fruta)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "71f92fd3"
+      },
+      "source": [
+        "# Loop 'while'\n",
+        "contador = 0\n",
+        "while contador < 5:\n",
+        "  print(\"Contador:\", contador)\n",
+        "  contador += 1"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "d0e9e9f4"
+      },
+      "source": [
+        "### Funções\n",
+        "\n",
+        "Você pode definir funções para agrupar código que realiza uma tarefa específica."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "24f17428"
+      },
+      "source": [
+        "def saudar(nome):\n",
+        "  \"\"\"Esta função cumprimenta a pessoa passada como parâmetro.\"\"\"\n",
+        "  print(\"Olá,\", nome + \"!\")\n",
+        "\n",
+        "saudar(\"Bob\")\n",
+        "saudar(\"Charlie\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Conheça o Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
